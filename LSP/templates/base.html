@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  <meta charset="utf-8">
+  <title>{% block title %}Hack-in{% endblock %}</title>
+</head>
+<body>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>
