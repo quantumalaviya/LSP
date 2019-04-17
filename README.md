@@ -1,2 +1,2 @@
 # LSP
-Hack-in Login/Signup page
+Login/Signup Page
